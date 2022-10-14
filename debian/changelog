@@ -1,0 +1,25 @@
+node-json-buffer (3.0.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Manas Kashyap ]
+  * New upstream release
+  * Standard version updated
+  * Debhelper bumped
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Add upstream/metadata
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 01 Mar 2020 09:21:38 +0100
+
+node-json-buffer (3.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #885727)
+
+ -- Manas kashyap <manaskashyaptech@gmail.com>  Fri, 29 Dec 2017 17:01:26 +0000

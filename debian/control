@@ -1,0 +1,24 @@
+Source: node-json-buffer
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Manas kashyap <manaskashyaptech@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+ , node-tape
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-json-buffer
+Vcs-Git: https://salsa.debian.org/js-team/node-json-buffer.git
+Homepage: https://github.com/dominictarr/json-buffer
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-json-buffer
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Description: JSON functions that can convert buffers.
+ json buffer converts to base64 instead, and deconverts
+ base64 to a buffer.
+ .
+ Node.js is an event-based server-side JavaScript engine.

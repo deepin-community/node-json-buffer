@@ -1,0 +1,5 @@
+set -e
+for t in test/*.js; do
+	echo "# $t"
+	node $t
+done
